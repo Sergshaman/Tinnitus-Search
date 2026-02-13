@@ -58,6 +58,10 @@ config_local.py
 *.sqlite
 *.sqlite3
 .continue/
+.continueignore
+.qoder/
+.repomixignore
+.~lock.README.md#
 
 # Бинарные файлы
 *.exe
