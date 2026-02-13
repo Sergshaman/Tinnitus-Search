@@ -1,0 +1,76 @@
+# Secrets
+scripts/secrets.env
+tg_bot/secrets.env
+scripts/secrets.env.template
+tg_bot/secrets.env.template
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyi
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+venv/
+ENV/
+
+# Git
+.git/
+.gitattributes
+.github/
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+pnpm-lock.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Данные и секреты (КРИТИЧНО!)
+models/
+data/
+logs/
+archives/
+.env
+*.env
+secrets.py
+config_local.py
+*.json
+*.csv
+*.zip
+*.db
+*.log
+*.sqlite
+*.sqlite3
+.continue/
+
+# Бинарные файлы
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.dat
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+Проект.txt
+repomix-output.*
